@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: hsl(210, 36%, 96%);
+}
+h1 {
+  text-align: center;
+  color: hsl(205, 86%, 17%);
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+.grocery-section {
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 8rem;
+  padding: 20px;
+  border-radius: 10px;
+  width: 75%;
+}
+.form-control {
+  display: flex;
+  justify-content: center;
+}
+.alert {
+  text-transform: capitalize;
+  margin: 20px 0px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+}
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+}
+#item {
+  padding: 10px;
+  color: rgb(90, 90, 90);
+  font-size: 16px;
+  letter-spacing: 2px;
+  background-color: hsl(210, 36%, 96%);
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  width: 100%;
+  outline: none;
+}
+#submit {
+  background-color: hsl(205, 86%, 81%);
+  padding: 10px;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+#submit:hover {
+  background-color: #49a6e9;
+}
+.grocery-container {
+  visibility: hidden;
+}
+.show-container {
+  visibility: visible;
+}
+.grocery-list {
+  margin: 50px 0px;
+  padding: 0px 5px;
+}
+.grocery-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.clear-items {
+  display: block;
+  margin: 30px auto;
+  background-color: transparent;
+  color: hsl(360, 71%, 66%);
+  border: none;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.clear-items:hover {
+  color: hsl(360, 67%, 44%);
+}
+.title-item {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.edit-item {
+  margin-left: 10px;
+  color: hsl(125, 71%, 66%);
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.edit-item:hover {
+  color: hsl(125, 67%, 44%);
+}
+.delete-item {
+  margin-left: 10px;
+  color: hsl(360, 71%, 66%);
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.delete-item:hover {
+  color: hsl(360, 67%, 44%);
+}
